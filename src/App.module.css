@@ -1,0 +1,58 @@
+.wrapper {
+    max-width: 46rem;
+    margin: 0 auto;
+    margin-top: -1.75rem;
+    padding: 0 1rem;
+
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+
+main header {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+    margin-top: 4rem;
+}
+
+main header .newTask{
+    display: flex;
+    align-content: center;
+    gap: .5rem;
+}
+
+main header .newTask p {
+    color: var(--blue);
+    font-weight: 700;
+}
+
+main header .countTask {
+    width: 20px;
+    height: 20px;
+    background-color: var(--gray-400);
+    border-radius: 50%;
+
+    position: relative;
+}
+
+main header .countTask span {
+    position: absolute;
+    right: 6px;
+    top: 1px;
+}
+
+
+main header .doneTask{
+    display: flex;
+    align-content: center;
+    gap: .5rem;
+}
+
+main header .doneTask p {
+    color: var(--purple);
+    font-weight: 700;
+}
+
+
